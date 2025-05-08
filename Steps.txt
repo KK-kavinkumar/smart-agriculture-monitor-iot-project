@@ -1,0 +1,71 @@
+2.2.1 is latest version - Windows 10
+For Windows 7, Arduino IDE 1.8.19
+If any extra drivers are asking for install permission, install them also.
+After installing, open the software as ADMINISTRATOR
+
+*******************************************
+NOW FOLLOW THESE STEPS (See video)
+
+Paste the below two links into the box in the "Additional Board Manager URL" in Preference options of "File"
+File --> Preferences --> Additional Board Manager URL
+
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
+
+I will upload this notepad file in whatsapp group.
+
+In Board Manager options, search for esp8266 and install that board.
+After that, install esp32 from "Expressif Systems" in the same method.
+It will install ESP32 board and NodeMCU ESP8266 board in your software.
+Do this even if you are using only Arduino UNO or NANO.
+
+Arduino UNO and NANO are already available in your software.
+
+********************************************
+
+CONNECT YOUR BOARD TO YOUR LAPTOP'S USB PORT AND THEN FOLLOW THE STEPS BELOW.
+
+To use Arduino UNO board, go to Tools --> Boards --> AVR Boards --> Arduino Uno
+To use Arduino UNO board, go to Tools --> Boards --> AVR Boards --> Arduino Nano
+To use NodeMCU board, go to Tools --> Boards --> 8266 --> NodeMCU 1.0
+To use ESP32 board, go to Tools --> Boards --> ESP32 --> ESP VROOM Board
+To use ESP32 CAM board, go to Tools --> Boards --> ESP32 --> ESP32 Wrover Module
+
+After selecting board, go to Tools --> Ports --> SELECT PORT NUMBER OTHER THAN COM1
+
+***************************************
+If many ports are showing, go to Windows button --> Type "Device Manager"
+Open the Device Manager and search for PORTS (COM & LPT)
+In that options, see what port is showing other than COM1.
+Sometimes, the board will be shown as "Silicon Labs CP210x". Note that port number.
+Come back to Arduino IDE software and select that port in Tools option.
+
+***************************************
+If port option is not showing, then you need to update CP2102 driver from this link.
+https://www.pololu.com/file/0J14/pololu-cp2102-windows-220616.zip
+Download this zip file and open the "pololu-cp2102-setup-x64.exe" if your laptop is 64 bit
+During the installation, Windows will ask you if you want to install the drivers.
+Click “Install”.
+Come back to Arduino IDE software and try ports option from Tools.
+Select proper port number in Tools option.
+
+***************************************
+To Test your works till now;
+
+Open File --> New Sketch and upload the code without modifying anything.
+If it shows "Done Uploading", then your installation is correct and completed.
+You can start your projects after that.
+
+****************************************************
+After installation, open this google drive link.
+https://drive.google.com/drive/folders/1TVUc-qH_sXL5jFxCFY0ZE5ZKqnCrwmYn?usp=sharing
+
+In that folder, Search for the pdf file "Interdisciplinary _project Mela (1) (1)".
+In that pdf, search for your required project title.
+Note down the serial number of that project and close the pdf.
+Now you can open the serial number folder of your project and download that folder to your laptop.
+In each folder, Arduino code for the project, Circuit diagram for the project and other needed items will be there.
+
+Rest we will see in tomorrow's session.
+
+Remember, Learning is not a one day operation. So continue your good works.
