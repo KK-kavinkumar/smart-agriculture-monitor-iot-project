@@ -1,0 +1,1 @@
+IoT-based smart agriculture monitoring system using NodeMCU ESP8266, Blynk Cloud, DHT11, Soil Moisture Sensor, PIR Sensor, Relay Module, and LCD Display.

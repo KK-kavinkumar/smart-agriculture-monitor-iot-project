@@ -1,0 +1,10 @@
+# Arduino
+*.tmp
+*.bak
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
