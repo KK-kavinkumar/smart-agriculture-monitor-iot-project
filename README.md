@@ -143,18 +143,6 @@ char pass[] = "YOUR_WIFI_PASSWORD";
 
 ---
 
-## Project Structure
-
-```text
-Smart-Plant-Monitoring-System/
-│
-├── SmartPlantMonitoring.ino
-├── README.md
-├── circuit_diagram.png
-├── project_images/
-│   ├── setup.jpg
-│   └── dashboard.jpg
-```
 
 ---
 
